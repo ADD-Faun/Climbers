@@ -9,7 +9,6 @@
 header{
     height:150px;
     width:100%;
-    contain: content;
     background-color: rgba(250, 250, 250, 0.6);
 }
 #logo-head #menu{
