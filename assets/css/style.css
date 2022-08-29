@@ -1,5 +1,5 @@
 *{
-    margin: 1px;
+    margin: 0;
     padding:0;
     border:none;
 }
@@ -7,29 +7,64 @@
 /* Header logo nav*/
 
 header{
-    padding: 5px;
+    padding: 10px;
+    width:100%;
     contain: content;
+    background-color: rgba(250, 250, 250, 0.6);
 }
 #logo-head{
     float:left;
+    font-size: 180%;
 }
 #menu{
-    font-size: 110%;
+    font-size: 160%;
     letter-spacing: 4px;
+    margin-right: 10px;
     float:right;
+    padding: 10px;
+    
 }
-nav li{
+#menu li{
     list-style: none;
-    display: inline;
+    display: inline-block;
+    margin: 2px;
+    padding-right: 20px;
 }
 
 #cover-image{
-    height: 600px;
+    height: 700px;
     width: 100%;
     background-image: url('../images/cover-image-cave-with-view-and-man-pexels-m-venter-1659437.jpg');
     background-repeat: no-repeat;
-    background-position: center center;
+    background-position: center ;
     background-size: cover;
     background-color: azure;
-    
+    color: aliceblue;
+    background-color:rgba(250, 250, 250, 0.6) ;
+}
+#welcome{
+    float: right;
+}
+
+
+/* footer stuff */
+
+footer{
+    height: 130px;
+}
+
+.social-networks{
+    text-align: center;
+
+}
+
+.social-networks li{
+    display: inline;
+}
+
+.social-networks i{
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+    color: #3a3a3a;
 }
