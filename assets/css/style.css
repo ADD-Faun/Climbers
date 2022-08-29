@@ -1,3 +1,28 @@
+*{
+    margin: 1px;
+    padding:0;
+    border:none;
+}
+
+/* Header logo nav*/
+
+header{
+    padding: 5px;
+    contain: content;
+}
+#logo-head{
+    float:left;
+}
+#menu{
+    font-size: 110%;
+    letter-spacing: 4px;
+    float:right;
+}
+nav li{
+    list-style: none;
+    display: inline;
+}
+
 #cover-image{
     height: 600px;
     width: 100%;
@@ -5,4 +30,6 @@
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
+    background-color: azure;
+    
 }
