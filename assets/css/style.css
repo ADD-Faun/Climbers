@@ -1,0 +1,8 @@
+#cover-image{
+    height: 600px;
+    width: 100%;
+    background-image: url('../images/cover-image-cave-with-view-and-man-pexels-m-venter-1659437.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
