@@ -73,7 +73,8 @@ header{
     padding-left: 10px;
     padding-bottom: 0;
 
-    float: right;
+    display: flex;
+    justify-content: flex-end;
 
     background-color: rgba(107, 210, 241, 0.7);
 
@@ -81,6 +82,14 @@ header{
     right: 50px;
 
     position: absolute;
+}
+
+/* what we do page*/
+
+.climbing-types{
+    width: 33%;
+    padding-top: 30px;
+    display: inline-flex;
 }
 
 
