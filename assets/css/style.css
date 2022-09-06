@@ -128,6 +128,7 @@ header{
     top:50px;
     z-index:5;
     margin:20px;
+    padding: 5px;
 }
 .wedo-images{
     overflow: hidden;
@@ -137,6 +138,7 @@ header{
     border: 3px solid #73AD21;
     margin: 1px;
     min-width:fit-content;
+    
 }
 .wedo-groups{
     margin:10px;

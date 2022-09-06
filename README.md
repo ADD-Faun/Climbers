@@ -82,7 +82,7 @@ Widnes Climbers was built for mobile screen sizes and then tested to see how it 
 
 It is important the navigation is always accessible on every screen size.
 
-The footer was found to overlap content or cover the entire page. This was fixed with code from developer.mozilla.org (see credits, Footer-credit)
+The footer was found to overlap content or cover the entire page. This was fixed with code from developer.mozilla.org (see credits, 'Footer-credit')
 
 Each pages navigation is able to navigate to all pages.
 
