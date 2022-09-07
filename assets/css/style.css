@@ -123,19 +123,19 @@ header{
 
 /* what we do page*/
 
-.wedo-sections{
+.info-sections{
     display:flex;
     justify-content:space-evenly;
     background-color:inherit;
     flex-wrap: wrap;
     padding-bottom: 10px;
 }
-.wedo-texts{
+.info-texts{
     overflow: hidden scroll;
     width: 200px;
     height: 100px;
     text-align: left;
-    background-color: #3a3a3a;
+    background-color: whitesmoke;
     position: relative;
     top:50px;
     z-index:5;
@@ -144,10 +144,10 @@ header{
     border: 3px solid #73AD21;
     border-radius: 4px;
 }
-.wedo-texts:hover{
+.info-texts:hover{
     box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
 }
-.wedo-images{
+.info-images{
     overflow: hidden;
     position: relative;
     width: 200px;
@@ -155,9 +155,8 @@ header{
     border: 3px solid #73AD21;
     margin: 1px;
     min-width:fit-content;
-    
 }
-.wedo-groups{
+.info-groups{
     margin:10px;
     flex-grow: 1;
     position: relative;
