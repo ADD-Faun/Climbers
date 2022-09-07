@@ -131,6 +131,8 @@ footer credit = https://developer.mozilla.org/en-US/docs/Web/CSS/Layout_cookbook
 
 bouldering = https://www.theclimbinghangar.com/media/3103/hangar_swansea_l-lonsdale__0508-2-edit-x2.jpg?center=0.483091787439614  (permission granted)
 
+lot of inspiration taken from love running project
+
 In this section you need to reference where you got your content, media and extra help from. It is common practice to use code from other repositories and tutorials, however, it is important to be very specific about these sources to avoid plagiarism. 
 
 You can break the credits section up into Content and Media, depending on what you have included in your project. 
