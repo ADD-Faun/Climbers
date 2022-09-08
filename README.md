@@ -40,7 +40,8 @@ In this section, you should go over the different parts of your project, and des
 - __What We Do page__
 
   - This section will allow the user to see exactly when the meetups will happen, where they will be located and how long the run will be in kilometers. 
-  - This section will be updated as these times change to keep the user up to date. 
+  - This section will be updated with additional climbing types if the group expands.
+  - This section is intended to be a very short incomplete education.
 
 ![Meetup Times](https://github.com/lucyrush/readme-template/blob/master/media/love_running_times.png)
 
@@ -79,12 +80,11 @@ In addition, you may also use this section to discuss plans for additional featu
 ## Testing 
 
 Widnes Climbers was built for mobile screen sizes and then tested to see how it expands to fill a window with every meaningful change. This was done by dragging a browser window to see the changes happen.
-
-It is important the navigation is always accessible on every screen size.
+It was important the navigation is always accessible on every screen size.
 
 The footer was found to overlap content or cover the entire page. This was fixed with code from developer.mozilla.org (see credits, 'Footer-credit')
 
-Each pages navigation is able to navigate to all pages.
+Each pages navigation is able to navigate to all pages. tested with use.
 
 
 ------
@@ -106,7 +106,7 @@ If this section grows too long, you may want to split it off into a separate fil
 
 ### Unfixed Bugs
 
-You will need to mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed. 
+Join us page image quality is low. Different file sizes and larger quality uploads did not work.
 
 ## Deployment
 
@@ -123,36 +123,37 @@ The live link can be found here - https://add-faun.github.io/Climbers/index.html
 
 ## Credits 
 
-header image = pexels-m-venter-1659437
+Lots of inspiration was taken from the love running website project taught by Code institute 
 
-join us page = pavel-danilyuk-7591309
+### Code & Styling
 
-footer credit = https://developer.mozilla.org/en-US/docs/Web/CSS/Layout_cookbook/Sticky_footers
-
-bouldering = https://www.theclimbinghangar.com/media/3103/hangar_swansea_l-lonsdale__0508-2-edit-x2.jpg?center=0.483091787439614  (permission granted)
-
-lot of inspiration taken from love running project
-
-code for background = https://github.com/Yuvrajchandra/CSS-Background-Patterns
-
-photo outdoor bouldering = https://www.dreamstime.com/stock-photo-couple-bouldering-happy-boulders-women-climbing-men-spotting-image55085115
-
-In this section you need to reference where you got your content, media and extra help from. It is common practice to use code from other repositories and tutorials, however, it is important to be very specific about these sources to avoid plagiarism. 
-
-You can break the credits section up into Content and Media, depending on what you have included in your project. 
+- Footer code to keep it at the bottom of the page and not have it overlap other content was taken from https://developer.mozilla.org/en-US/docs/Web/CSS/Layout_cookbook/Sticky_footers . This code was free use.
+- Background pattern done using css is from free to use code from https://github.com/Yuvrajchandra/CSS-Background-Patterns
+- The style of the form and join us page was taken from the Love running project 
 
 ### Content 
 
-- The text for the Home page was taken from Wikipedia Article A
 - The style of the form and join us page was taken from the Love running project (provide more links)
-
-- Instructions on how to implement form validation on the Sign Up page was taken from [Specific YouTube Tutorial](https://www.youtube.com/)
 - The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
 
 ### Media
+##### General
 
-- The photos used on the home and sign up page are from This Open Source site
-- The images used for the gallery page were taken from this other open source site
+- Cover/hero image used on home page taken from free open source site pexel.com (pexels-m-venter-1659437)
+- Join us page background image taken from free open source site pexel.com (pavel-danilyuk-7591309)
+##### Where we go
+
+- Where we go 1st image, matchworks climbing center, used to review and advertise the location we visit. Taken from their facebook https://www.facebook.com/TCHLiverpool/photos/5308587909198965/  & website https://www.theclimbinghangar.com/media/3103/hangar_swansea_l-lonsdale__0508-2-edit-x2.jpg?center=0.483091787439614
+- Where we go 2nd image, boardroom climbing center, used to review and advertise the location we visit. Taken from their website https://www.theboardroomclimbing.com/
+- Where we go 3rd image showing outdoor bouldering taken from subscription image site dreamstime.com https://www.dreamstime.com/stock-photo-couple-bouldering-happy-boulders-women-climbing-men-spotting-image55085115
+- Where we go 4th image showing man climbing a mountain from image site getty.com
+- Where we go 5th image showing people at a pub taken from free open source site pexel.com
+##### What we do 
+
+- What we do 1st image showing indoor bouldering, used for education, taken from xxxx
+- What we do 2nd image showing two types of rope climbing taken from https://www.vdiffclimbing.com/basic-top-rope/
+- What we do 3rd image showing two women bouldering outdoors taken from climbinghouse.com
+- What we do 4th image showing man climbing a mountain from image site getty.com
 
 
 Congratulations on completing your Readme, you have made another big stride in the direction of being a developer! 
