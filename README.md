@@ -20,7 +20,7 @@ In this section, you should go over the different parts of your project, and des
   - Navigation slides across the top of the page as the screen size changes to give a responcive feeling change that is still consistent in its general position.
   - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button. 
 
-![Nav Bar](https://github.com/lucyrush/readme-template/blob/master/media/love_running_nav.png)
+![Nav Bar](assets/images/Navigation-mock-up.png)
 
 - __The landing page image__
 
@@ -30,20 +30,13 @@ In this section, you should go over the different parts of your project, and des
 
 ![Landing Page](https://github.com/lucyrush/readme-template/blob/master/media/love_running_landing.png)
 
-- __Club Ethos Section__
-
-  - The club ethos section will allow the user to see the benefits of joining the Love Running meetups, as well as the benefits of running overall. 
-  - This user will see the value of signing up for the Love Running meetups. This should encourage the user to consider running as their form of exercise. 
-
-![Club Ethos](https://github.com/lucyrush/readme-template/blob/master/media/love_running_ethos.png)
-
 - __What We Do page__
 
   - This section will allow the user to see exactly when the meetups will happen, where they will be located and how long the run will be in kilometers. 
   - This section will be updated with additional climbing types if the group expands.
   - This section is intended to be a very short incomplete education.
 
-![Meetup Times](https://github.com/lucyrush/readme-template/blob/master/media/love_running_times.png)
+![What We Do](assets/images/what-we-do-readme.png)
 
 - __The Footer__ 
 
@@ -51,7 +44,7 @@ In this section, you should go over the different parts of your project, and des
   - The footer is valuable to the user as it encourages them to keep connected via social media
   - The footer was made to always be at the bottom of the page so larger screen sizes don't have blank at the bottom when there is not enough content.
 
-![Footer](https://github.com/lucyrush/readme-template/blob/master/media/love_running_footer.png)
+![Footer](assets/images/footer-readme.png)
 
 - __Where We Go page__
 
@@ -59,7 +52,7 @@ In this section, you should go over the different parts of your project, and des
   - The Where We Go page will provide the visitor with supporting images to see what the outdoor locations are like.
   - This section is useful for the visitor to imagine what it would be like to join the group.
 
-![Gallery](https://github.com/lucyrush/readme-template/blob/master/media/love_running_gallery.png)
+![Where We Go](assets/images/where-we-go-readme.png)
 
 - __Join Us Page__
 
@@ -67,11 +60,7 @@ In this section, you should go over the different parts of your project, and des
   - The visitor may select one , two or three types of climbing but must select one.
   - The visitor will be asked to submit their full name and email address. 
 
-![Sign Up](https://github.com/lucyrush/readme-template/blob/master/media/love_running_signup.png)
-
-For some/all of your features, you may choose to reference the specific project files that implement them.
-
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
+![Join Us](assets/images/join-us-readme.png)
 
 ### Features Left to Implement
 
@@ -101,7 +90,7 @@ If this section grows too long, you may want to split it off into a separate fil
 
 - HTML
   - Section without heading, heading not needed, changed to div.
-   No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html)
+   No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fadd-faun.github.io%2FClimbers%2F)
 - CSS
   - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fadd-faun.github.io%2FClimbers&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 
@@ -155,24 +144,3 @@ Lots of inspiration was taken from the love running website project taught by Co
 - What we do 2nd image showing two types of rope climbing taken from https://www.vdiffclimbing.com/basic-top-rope/
 - What we do 3rd image showing two women bouldering outdoors taken from climbinghouse.com
 - What we do 4th image showing man climbing a mountain from image site getty.com
-
-
-Congratulations on completing your Readme, you have made another big stride in the direction of being a developer! 
-
-## Other General Project Advice
-
-Below you will find a couple of extra tips that may be helpful when completing your project. Remember that each of these projects will become part of your final portfolio so it’s important to allow enough time to showcase your best work! 
-
-- One of the most basic elements of keeping a healthy commit history is with the commit message. When getting started with your project, read through [this article](https://chris.beams.io/posts/git-commit/) by Chris Beams on How to Write  a Git Commit Message 
-  - Make sure to keep the messages in the imperative mood 
-
-- When naming the files in your project directory, make sure to consider meaningful naming of files, point to specific names and sections of content.
-  - For example, instead of naming an image used ‘image1.png’ consider naming it ‘landing_page_img.png’. This will ensure that there are clear file paths kept. 
-
-- Do some extra research on good and bad coding practices, there are a handful of useful articles to read, consider reviewing the following list when getting started:
-  - [Writing Your Best Code](https://learn.shayhowe.com/html-css/writing-your-best-code/)
-  - [HTML & CSS Coding Best Practices](https://medium.com/@inceptiondj.info/html-css-coding-best-practice-fadb9870a00f)
-  - [Google HTML/CSS Style Guide](https://google.github.io/styleguide/htmlcssguide.html#General)
-
-Getting started with your Portfolio Projects can be daunting, planning your project can make it a lot easier to tackle, take small steps to reach the final outcome and enjoy the process! 
-

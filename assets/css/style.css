@@ -40,6 +40,10 @@ html, body {
                         radial-gradient(gray 2px, transparent 0);
     background-size: 30px 30px, 30px 30px;
 }
+
+.banner{
+    display: inline-block;
+}
 /* Header logo nav*/
 header{
     height:60px;
