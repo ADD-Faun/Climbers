@@ -133,6 +133,10 @@ bouldering = https://www.theclimbinghangar.com/media/3103/hangar_swansea_l-lonsd
 
 lot of inspiration taken from love running project
 
+code for background = https://github.com/Yuvrajchandra/CSS-Background-Patterns
+
+photo outdoor bouldering = https://www.dreamstime.com/stock-photo-couple-bouldering-happy-boulders-women-climbing-men-spotting-image55085115
+
 In this section you need to reference where you got your content, media and extra help from. It is common practice to use code from other repositories and tutorials, however, it is important to be very specific about these sources to avoid plagiarism. 
 
 You can break the credits section up into Content and Media, depending on what you have included in your project. 
