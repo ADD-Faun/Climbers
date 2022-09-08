@@ -33,7 +33,6 @@ html, body {
 }
 
 .bricks{
-    background-color: #f16c6b;
     background-image:   linear-gradient(45deg, transparent 20%, black 25%, transparent 25%),
                         linear-gradient(-45deg, transparent 20%, black 25%, transparent 25%),
                         linear-gradient(-45deg, transparent 75%, black 80%, transparent 0),
@@ -42,7 +41,12 @@ html, body {
 }
 
 .banner{
-    display: inline-block;
+    display:flex;
+    justify-content:space-evenly;
+    background-color:inherit;
+    flex-wrap: wrap;
+    padding: 30px;
+
 }
 /* Header logo nav*/
 header{

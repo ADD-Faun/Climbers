@@ -9,8 +9,6 @@ Widnes Climbers will explain the different types of climbing the group does and 
 
 ## Features 
 
-In this section, you should go over the different parts of your project, and describe each in a sentence or so. You will need to explain what value each of the features provides for the user, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
-
 ### Existing Features
 
 - __Navigation Bar__
@@ -51,6 +49,7 @@ In this section, you should go over the different parts of your project, and des
   - The Where We Go page will provide the visitor with supporting images to see what the indoor facilities are like. 
   - The Where We Go page will provide the visitor with supporting images to see what the outdoor locations are like.
   - This section is useful for the visitor to imagine what it would be like to join the group.
+  - Reviews the places the group goes
 
 ![Where We Go](assets/images/where-we-go-readme.png)
 
@@ -64,7 +63,7 @@ In this section, you should go over the different parts of your project, and des
 
 ### Features Left to Implement
 
-- Another feature idea
+- Banner with locations and time at the bottom of every page about footer
 
 ## Testing 
 
