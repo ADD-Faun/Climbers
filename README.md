@@ -5,7 +5,7 @@ Widnes Climbers is a site to help people in Widnes come together and go climbing
 Widnes Climbers will explain the different types of climbing the group does and when they meet. It will also have a sign up newsletter with questions about what type of climbing the visitor is interested in, so they can be informed on when and where that type is and be notified of changes.
  
 
-![Responsice Mockup](https://github.com/lucyrush/readme-template/blob/master/media/love_running_mockup.png)
+![Responsice Mockup](assets/images/responsiveness-readme.png)
 
 ## Features 
 
