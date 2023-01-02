@@ -22,7 +22,7 @@ html, body {
 }
 .page-body {
     flex-grow: 1;
-    padding: 20px;
+    padding: 20px 0px;
     background-image: linear-gradient(45deg, transparent 20%, black 25%, transparent 25%),
                           linear-gradient(-45deg, transparent 20%, black 25%, transparent 25%),
                           linear-gradient(-45deg, transparent 75%, black 80%, transparent 0),
@@ -36,7 +36,7 @@ html, body {
     background-image:   linear-gradient(45deg, transparent 20%, black 25%, transparent 25%),
                         linear-gradient(-45deg, transparent 20%, black 25%, transparent 25%),
                         linear-gradient(-45deg, transparent 75%, black 80%, transparent 0),
-                        radial-gradient(gray 2px, transparent 0);
+                        radial-gradient(gray 2px, transparent 1);
     background-size: 30px 30px, 30px 30px;
 }
 
@@ -71,6 +71,11 @@ header{
     padding: 10px;
     padding-left: 20px;
     word-spacing: 4px;
+}
+@media (max-width: 336px){
+    #menu{
+        margin-top: 40px;
+    }
 }
 #menu li{
     list-style: none;
@@ -134,22 +139,26 @@ header{
 .info-sections{
     display:flex;
     justify-content:space-evenly;
+    align-content: center;
     background-color:inherit;
     flex-wrap: wrap;
+    overflow: auto;
     padding-bottom: 10px;
+    border: 3px solid purple;
+}
+.info-texts li{
+    text-align: left;
 }
 .info-texts{
-    overflow: hidden scroll;
-    width: 200px;
-    height: 100px;
-    text-align: left;
+    overflow: auto;
+    align-self: center;
+    min-width: 200px;
+    max-width: 300px;
+    text-align: center;
     background-color: whitesmoke;
-    position: relative;
-    top:50px;
-    z-index:5;
-    margin:20px;
+    margin: 5px;
     padding: 5px;
-    border: 3px solid #73AD21;
+    border: 3px solid purple;
     border-radius: 4px;
 }
 .info-texts:hover{
@@ -157,21 +166,25 @@ header{
 }
 .info-images{
     overflow: hidden;
-    position: relative;
-    width: 200px;
+    width: 250px;
     height: 200px;
-    border: 3px solid #73AD21;
-    margin: 1px;
-    min-width:fit-content;
+    border: 3px solid black;
+    margin: 5px;
+    max-width:fit-content;
+}
+@media screen {
+    
 }
 .info-images:hover{
     box-shadow: 0 0 2px 1px rgba(115, 173, 33, 0.5);
 }
 .info-groups{
-    margin:10px;
-    flex-grow: 1;
-    position: relative;
-    max-width: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin:5px;
+    min-width: fit-content;
+    min-height: fit-content;
 }
 
 
@@ -189,8 +202,8 @@ header{
     color:#fff;
     background-color:rgba(60, 60, 60, 0.6);
     max-width:400px;
-    position:absolute;
-    left:10%;
+    position: relative;
+    left:5%;
     padding:30px;
 }
 
@@ -231,10 +244,8 @@ header{
 
 /* footer stuff */
 footer{
-    height: 150px;
     bottom: 0;
     width: 100%;
-    margin-top: 50px;
 }
 
 .social-networks{
@@ -248,6 +259,6 @@ footer{
 .social-networks i{
     font-size: 160%;
     margin: 1%;
-    padding: 5%;
+    padding: 10px;
     color: #3a3a3a;
 }
