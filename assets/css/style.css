@@ -4,22 +4,26 @@
     border:none;
    
 }
+
 html, body {
     box-sizing: border-box;
     height: 100%;
     padding: 0;
     margin: 0;
 }
+
 .wrapper {
     box-sizing: border-box;
     min-height: 100%;
     display: flex;
     flex-direction: column;
 }
+
 .page-header, .page-footer {
     flex-grow: 0;
     flex-shrink: 0;
 }
+
 .page-body {
     flex-grow: 1;
     padding: 20px 0px;
@@ -48,20 +52,27 @@ html, body {
     padding: 30px;
 
 }
-/* Header logo nav*/
+
+
+/* Header & logo styling*/
 header{
     height:60px;
     width:100%;
 }
+
 #logo-head #menu{
     line-height: 75px;
 }
+
 #logo-head{
     font-size: 180%;
     display: flex;
     justify-content: flex-start;
     padding: 10px 20px;
 }
+
+/*navication styling*/
+
 #menu{
     font-size: 160%;
     margin-right: 10px;
@@ -72,17 +83,20 @@ header{
     padding-left: 20px;
     word-spacing: 4px;
 }
+
 @media (max-width: 336px){
     #menu{
         margin-top: 40px;
     }
 }
+
 #menu li{
     list-style: none;
     display: inline-flex;
     margin: 2px;
     padding-right: 20px;
 }
+
 #menu a {
     text-decoration: none;
     color: inherit;
@@ -91,6 +105,7 @@ header{
 #menu a:hover{
     border-bottom: 1px solid #3a3a3a;
 }
+
 .current{
     border-bottom: 1px solid #3a3a3a;
 }
@@ -111,6 +126,7 @@ header{
     background-position: center ;
     background-size: cover;
 }
+
 #welcome{
     font-size: large;
     font-family: Oswald, sans-serif;
@@ -134,7 +150,7 @@ header{
     max-width: fit-content;
 }
 
-/* what we do page*/
+/* what we do page & where we go styling*/
 
 .info-sections{
     display:flex;
@@ -146,9 +162,11 @@ header{
     padding-bottom: 10px;
     border: 3px solid purple;
 }
+
 .info-texts li{
     text-align: left;
 }
+
 .info-texts{
     overflow: auto;
     align-self: center;
@@ -161,9 +179,11 @@ header{
     border: 3px solid purple;
     border-radius: 4px;
 }
+
 .info-texts:hover{
     box-shadow: 0 0 2px 1px rgba(115, 173, 33, 0.5);
 }
+
 .info-images{
     overflow: hidden;
     width: 250px;
@@ -172,12 +192,15 @@ header{
     margin: 5px;
     max-width:fit-content;
 }
+
 @media screen {
     
 }
+
 .info-images:hover{
     box-shadow: 0 0 2px 1px rgba(115, 173, 33, 0.5);
 }
+
 .info-groups{
     display: flex;
     flex-wrap: wrap;
@@ -188,7 +211,7 @@ header{
 }
 
 
-/* forms stuff*/
+/* forms styling*/
 .form-section{
     clear: left;
     background: url(../images/group-joinus-form-pexels-pavel-danilyuk-7591309.jpg);
@@ -211,6 +234,7 @@ header{
     color:#fafafa;
     margin-bottom:20px;
 }
+
 .text-input{
     background:transparent;
     color:#fafafa;
@@ -220,9 +244,11 @@ header{
     border:1px solid #fafafa;
     border-radius:2px;
 }
+
 .text-input:hover{
     border-color:#f16c6b;
 }
+
 .join-button{
     margin-top:20px;
     border-radius:2px;
@@ -233,16 +259,15 @@ header{
     color:#fafafa;
     display:block;
 }
+
 .join-button:hover{
     background-color:#fafafa;
     color:#f16c6b;
 }
 
-/* Where we go*/
 
+/* footer styling*/
 
-
-/* footer stuff */
 footer{
     bottom: 0;
     width: 100%;
