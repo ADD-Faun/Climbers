@@ -18,7 +18,7 @@ Widnes Climbers will explain the different types of climbing the group does and 
   - Navigation slides across the top of the page as the screen size changes to give a responcive feeling change that is still consistent in its general position.
   - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button. 
 
-![Nav Bar](assets/images/Navigation-mock-up.png)
+![Nav Bar](assets/images/navigation-mock-up.png)
 
 - __The landing page image__
 

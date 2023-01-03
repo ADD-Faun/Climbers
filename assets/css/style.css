@@ -44,13 +44,33 @@ html, body {
     z-index: -1;
 }
 
-.banner{
-    display:flex;
-    justify-content:space-evenly;
+.banner-groups{
     background-color:inherit;
-    flex-wrap: wrap;
-    padding: 30px;
-    z-index: 2;
+    overflow: hidden;
+    width: 240px;
+    height: 200px;
+    margin: 10px;
+}
+
+.banner-text{
+    overflow: auto;
+    display: block;
+    text-align: center;
+    background-color: black;
+    color: white;
+    position: relative;
+    z-index: 5;
+    top: 160px;
+    padding: 5px;
+}
+
+.banner-img {
+    overflow: hidden;
+    display: block;
+    position: relative;
+    bottom: 40px;
+    width: 100%;
+    z-index: -1;
 }
 
 .banner-section{
@@ -58,6 +78,9 @@ html, body {
     justify-content:space-evenly;
     background-color:inherit;
     flex-wrap: wrap;
+    overflow: auto;
+    padding-bottom: 10px;
+    border: 3px solid purple;
 }
 
 
@@ -84,7 +107,7 @@ header{
 
 #menu{
     font-size: 160%;
-    margin-right: 10px 0px;
+    margin-right: 10px;
     display: flex;
     justify-content: space-evenly;
     position: relative;
@@ -122,13 +145,13 @@ header{
 /*cover image section styling*/
 
 #image-section{
-    height: 600px;
+    height: 500px;
     width: 100%;
     position:relative;
 }
 
 #cover-image{
-    height: 600px;
+    height: 500px;
     width: 100%;
     background-image: url('../images/cover-image-cave-with-view-and-man-pexels-m-venter-1659437.jpg');
     background-repeat: no-repeat;
