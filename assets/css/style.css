@@ -212,7 +212,7 @@ header{
 }
 
 .info-texts:hover{
-    box-shadow: 0 0 2px 1px rgba(purple, 0.5);
+    box-shadow: 0 0 2px 1px rgba(139, 29, 207, 0.5);
 }
 
 .info-images{
@@ -240,7 +240,7 @@ header{
 }
 
 .info-images:hover{
-    box-shadow: 0 0 2px 1px rgba(purple, 0.5);
+    box-shadow: 0 0 2px 1px rgba(139, 29, 207, 0.5);
 }
 
 .info-groups{
