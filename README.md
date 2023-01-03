@@ -72,19 +72,19 @@ and be notified of changes.
 
 ## Testing 
 
-Widnes Climbers was built for mobile screen sizes and then tested to see how it expands to fill a window with every meaningful change. This was done using the inspect feature mostly
+Testing was mostly done by loading on different devices and with code validators.
 
-It was important the navigation is always accessible on every screen size.
+Testing for different screen sizes was done using chromes inspect feature and by loading the website on different devices.
 
 The presentation of text on pages was found to be difficult to read.
 This was fixed by making text boxes bigger and away from images to make reading easier.
 
-The background was found to be too distracting in testing & was made to have a higher opacity.
+The background was found to be too distracting in testing.
+This was fixed by making is a fixed position element with a higher opacity.
 
-The footer was found to overlap content or cover the entire page. This was fixed with code from developer.mozilla.org (see credits, 'Footer-credit')
-
-Each pages navigation is able to navigate to all pages. tested with use.
-
+The footer was found to overlap content or cover the entire page. 
+This was fixed with code from developer.mozilla.org (see credits, 'Footer-credit')
+This set the footer to remain at the bottom of the page on all screen sizes.
 
 ------
 
