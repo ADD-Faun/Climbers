@@ -1,11 +1,18 @@
 # Widnes Climbers
 
-Widnes Climbers is a site to help people in Widnes come together and go climbing together in the surrounding area, inside and outside. Its aim is for climbers of Widnes to have an easy place to join the group and know where people are. The site will target new and experienced climbers who would like company while they climb or just want to get into the sport and need encouragement.
+Widnes Climbers is a site to help people in Widnes come together and go climbing together in the surrounding area both indoors and outdoors.
+The puspose is to be simple in informing people that there is a group of people who welcome others to join them.
 
-Widnes Climbers will explain the different types of climbing the group does and when they meet. It will also have a sign up newsletter with questions about what type of climbing the visitor is interested in, so they can be informed on when and where that type is and be notified of changes.
+Its aim is for climbers of Widnes to join the social medias or sign up to the newsletter if they wish.
+The site is designed to present the opurtunity to join a group that is simple and friendly.
+The site will target new and experienced climbers who would like company while they climb or just want to get into the sport and need encouragement.
+
+Widnes Climbers will explain the different types of climbing the group does and when they meet. 
+It will have a sign up newsletter with questions about what type of climbing the visitor is interested in, so they can be informed on when and where that type is 
+and be notified of changes.
  
 
-![Responsice Mockup](assets/images/responsiveness-readme.png)
+![Responsice Mockup](assets/images/responsiveness-readme.jpg)
 
 ## Features 
 
@@ -20,17 +27,15 @@ Widnes Climbers will explain the different types of climbing the group does and 
 
 ![Nav Bar](assets/images/navigation-mock-up.png)
 
-- __The landing page image__
+- __The landing page__
 
   - The landing includes a photograph of beautiful scenery framed by rock and someone enjoying the view.
-  - The image invokes the feeling of adventure and beauty that many climbers enjoy, while the framing rock suggests this website is their portal to that feeling they seek.
+  - Landing page has text detailing the purpose of the website to the user
   - There is overlaying text to tell visitors they are in the right place and to encourage visitor to begin scrolling down.
-
-![Landing Page](https://github.com/lucyrush/readme-template/blob/master/media/love_running_landing.png)
 
 - __What We Do page__
 
-  - This section will allow the user to see exactly when the meetups will happen, where they will be located and how long the run will be in kilometers. 
+  - This section will allow the user to see exactly when the meetups will happen, where they will be located and what we are doing that day. 
   - This section will be updated with additional climbing types if the group expands.
   - This section is intended to be a very short incomplete education.
 
@@ -67,8 +72,14 @@ Widnes Climbers will explain the different types of climbing the group does and 
 
 ## Testing 
 
-Widnes Climbers was built for mobile screen sizes and then tested to see how it expands to fill a window with every meaningful change. This was done by dragging a browser window to see the changes happen.
+Widnes Climbers was built for mobile screen sizes and then tested to see how it expands to fill a window with every meaningful change. This was done using the inspect feature mostly
+
 It was important the navigation is always accessible on every screen size.
+
+The presentation of text on pages was found to be difficult to read.
+This was fixed by making text boxes bigger and away from images to make reading easier.
+
+The background was found to be too distracting in testing & was made to have a higher opacity.
 
 The footer was found to overlap content or cover the entire page. This was fixed with code from developer.mozilla.org (see credits, 'Footer-credit')
 
@@ -76,14 +87,6 @@ Each pages navigation is able to navigate to all pages. tested with use.
 
 
 ------
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your project’s features and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
-
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
-
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
-
 
 ### Validator Testing 
 
