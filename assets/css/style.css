@@ -79,8 +79,9 @@ html, body {
     background-color:inherit;
     flex-wrap: wrap;
     overflow: auto;
+    width: 100%;
+    margin-top: 20px;
     padding-bottom: 10px;
-    border: 3px solid purple;
 }
 
 
