@@ -29,7 +29,8 @@ and be notified of changes.
 
 - __The landing page__
 
-  - The landing includes a photograph of beautiful scenery framed by rock and someone enjoying the view.
+  - The landing includes a photograph of beautiful scenery framed by rock and someone enjoying the view,
+    this sets the sence of climbing adventure which users of the site will be looking for.
   - Landing page has text detailing the purpose of the website to the user
   - There is overlaying text to tell visitors they are in the right place and to encourage visitor to begin scrolling down.
 
@@ -72,12 +73,20 @@ and be notified of changes.
 
 ## Testing 
 
-Testing was mostly done by loading on different devices and with code validators.
+Testing was done by using chromes inspect feature, loading the website on different devices and a with code validators.
 
 Testing for different screen sizes was done using chromes inspect feature and by loading the website on different devices.
+Very big screens were found to feel empty so images were set to become larger using media query. 
+
+All clickable items work at different screen sizes and on different devices.
+  - navication buttons on every page
+  - image hyperlinks to climbing centers on where we go page
+  - social media hyperlinks
+  - header logo links to home page
 
 The presentation of text on pages was found to be difficult to read.
 This was fixed by making text boxes bigger and away from images to make reading easier.
+Background colour for text boxes was changed to white for better contrast.
 
 The background was found to be too distracting in testing.
 This was fixed by making is a fixed position element with a higher opacity.
@@ -85,6 +94,8 @@ This was fixed by making is a fixed position element with a higher opacity.
 The footer was found to overlap content or cover the entire page. 
 This was fixed with code from developer.mozilla.org (see credits, 'Footer-credit')
 This set the footer to remain at the bottom of the page on all screen sizes.
+
+The sign up form excepts data and all the checkboxes work.
 
 ------
 
@@ -94,11 +105,12 @@ This set the footer to remain at the bottom of the page on all screen sizes.
   - Section without heading, heading not needed, changed to div.
    No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fadd-faun.github.io%2FClimbers%2F)
 - CSS
-  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fadd-faun.github.io%2FClimbers&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fadd-faun.github.io%2FClimbers%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 
 ### Unfixed Bugs
 
-Join us page image quality is low. Different file sizes and larger quality uploads did not work.
+  - Join us page image quality is low. Different file sizes and larger quality uploads did not work.
+    Person who commissioned the website requested the image still be used as it embodies the sites goals.
 
 ## Deployment
 
