@@ -34,7 +34,7 @@ and be notified of changes.
   - Landing page has text detailing the purpose of the website to the user.
     Text is simple as the website is meant to have someone contact the group or turn up at an event.
   - There is overlaying text to tell visitors they are in the right place and to encourage visitor to begin scrolling down.
-  - The banner at the bottom shows an image of each activity the group does with the day printed on it for quick reminders of where the group is meeting.
+  - The banner at the bottom shows an image of each activity the group does with the day and time printed on it for quick reminders of where the group is meeting.
 
 ![Landing Page](assets/images/landing-page-readme.png.png)
 
