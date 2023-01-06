@@ -31,12 +31,14 @@ and be notified of changes.
 
   - The landing includes a photograph of beautiful scenery framed by rock and someone enjoying the view,
     this sets the sence of climbing adventure which users of the site will be looking for.
-  - Landing page has text detailing the purpose of the website to the user
+  - Landing page has text detailing the purpose of the website to the user.
+    Text is simple as the website is meant to have someone contact the group or turn up at an event.
   - There is overlaying text to tell visitors they are in the right place and to encourage visitor to begin scrolling down.
 
 - __What We Do page__
 
   - This section will allow the user to see exactly when the meetups will happen, where they will be located and what we are doing that day. 
+  - Has images showing each type of climbing to help people identify with the group more.
   - This section will be updated with additional climbing types if the group expands.
   - This section is intended to be a very short incomplete education.
 
