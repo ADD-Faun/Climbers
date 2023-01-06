@@ -156,7 +156,7 @@ header{
 #cover-image{
     height: 500px;
     width: 100%;
-    background-image: url('../images/cover-image-cave-with-view-and-man-pexels-m-venter-1659437.jpg');
+    background-image: url('../images/cover-image-cave-with-view-and-man-pexels-m-venter.jpg');
     background-repeat: no-repeat;
     background-position: center ;
     background-size: cover;
@@ -260,7 +260,7 @@ header{
 /* forms styling*/
 .form-section{
     clear: left;
-    background: url(../images/group-joinus-form-pexels-pavel-danilyuk-7591309.jpg);
+    background: url(../images/group-joinus-form-pexels-pavel-danilyuk.jpg);
     background-size: cover;
     background-position: center;
     height: 900px;
